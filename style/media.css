@@ -1,0 +1,85 @@
+/* --------------------Media---------------------- */
+@media (max-width: 991px) {
+
+    .hero-head h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    a.navbar-brand {
+        display: block;
+    }
+
+    nav.scrolled a.navbar-brand {
+        color: #000;
+    }
+
+    .two-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-row {
+        flex-direction: column;
+    }
+
+    .one-img img {
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .one-img {
+        justify-content: center;
+        align-items: end;
+        margin-top: 20px !important;
+    }
+    
+    .fixed-top {
+        background-color: #efefee;
+        color: #000;
+    }
+
+    nav {
+        color: #000;
+        transition: background-color 0.3s ease;
+    }
+
+    a.nav-link, a.navbar-brand {
+        color: #000;
+    }
+
+    .def {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sub button {
+        width: 100% !important;
+    }
+
+    .row.lets-chat-row {
+        flex-direction: column;
+    }
+}
+
+/* ---------------Media for smaller phone----------------- */
+@media (max-width: 767px){
+    .hero-img img {
+        width: 55rem;
+    }
+}
+
+/* -------------------------Media Others----------------------------- */
+
+@media (max-width: 991px){
+    nav {
+        color: #fff !important;
+        transition: background-color 0.3s ease;
+    }
+
+    a.nav-link, a.navbar-brand {
+        color: #fff;
+    }
+}

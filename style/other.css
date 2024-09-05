@@ -1,0 +1,172 @@
+
+/* About US */
+nav{
+    background-color: #000;
+}
+
+.other-fluid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+
+.other-head h1{
+    color: #fff;
+}
+
+.other-head{
+    text-align: center;
+}
+
+span.other-home a{
+    text-decoration: none;
+    color: #fff;
+}
+
+span.other-sign{
+    color: #fff;
+}
+
+span.about-third-h1{
+    font-weight: bold;
+}
+
+.about-fifth{
+    text-align: center;
+}
+
+.about-first, .about-second, .about-third, .about-forth{
+    text-align: center;
+}
+
+/* The cars */
+
+.other-cars{
+    height: auto !important;
+}
+
+/* Bus and Van */
+.vehicle-info p{
+    margin-bottom: 0 !important;
+    color: #000;
+}
+
+.car-body{
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 0 !important;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.price span.prices{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #004b0e;
+}
+
+
+.two-body{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* --------------Contact Us------------- */
+.row.lets-chat-row{
+    grid: 0;
+}
+
+
+
+.lets-chat-one{
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lets-chat-two{
+
+}
+
+form.lets{
+    flex-direction: column;
+    gap: 10px;
+}
+
+form.lets input {
+    margin-left: 0;
+    border-radius: 0px;
+    border: none;
+    padding: 5px;
+}
+
+.def{
+    display: flex;
+    gap: 10px;
+}
+
+.lope{
+    width: 100%;
+}
+
+.form-big{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.message{
+    border: none;
+}
+
+button.sub-button{
+    border-radius: 0 !important;
+    padding: 10px;
+    width: 20rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s, transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub{
+    display: flex;
+    justify-content: end;
+}
+
+button.sub-button:hover{
+    
+}
+
+button.sub-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transition: width 0.3s ease, height 0.3s ease;
+    transform: translate(-50%, -50%);
+}
+
+
+button.sub-button:hover {
+    color: #007bff; /* Change text color on hover if needed */
+    border-color: #007bff; /* Optional: Change border color to match the text */
+}
+
+.lig{
+    overflow: hidden;
+    display: flex;
+    justify-content: baseline;
+}
+
+.lig img{
+    width: 100%;
+}
