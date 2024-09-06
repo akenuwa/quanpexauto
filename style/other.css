@@ -171,6 +171,6 @@ button.sub-button:hover {
     width: 100%;
 }
 
-.price hr{
+.price, hr{
     display: none;
 }
