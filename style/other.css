@@ -170,3 +170,7 @@ button.sub-button:hover {
 .lig img{
     width: 100%;
 }
+
+.price hr{
+    display: none;
+}
